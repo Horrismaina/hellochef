@@ -1,0 +1,591 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+
+.sectionone{
+    height:80vh;
+    width:100vw;
+
+}
+.navbar{
+    height:15%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+    
+ .logo{
+    font-size: 25px;
+    font-weight: 800;
+    color:firebrick;
+    margin-left: 20px;
+ }
+ .navigation{
+    margin-right: 50px;
+ }
+
+
+.navigation-items li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation-items a{
+    text-decoration:none;
+    color:grey;
+    font-size:16px;
+}
+
+
+.signinbtn a{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+.banner{
+    height:85%;
+    width:100%;
+    background-image:url(/images/banner.webp);
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannertext{
+    height:150px;
+    width:350px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+.bannertext h1{
+    font-size: 30px;
+    font-weight: 100px;
+    margin-bottom: 10px;
+}
+.bannertext p{
+    margin-bottom: 30px;
+    font-size:22px;
+}
+.bannertext a{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+/* section two */
+    .sectiontwo{
+
+    height:75vh;
+    width:100vw;
+    }
+
+ .sectiontwo .header{
+    height:25%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header h2{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.header p{
+    font-size:18px;
+}
+
+.body{
+    height:65%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectiontwo .principle{
+    height:70%;
+    width:20%;
+    margin-right: 30px;
+}
+.principle .image{
+    height:60%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.principle .imagedescription{
+    height:40%;
+    width:100%;
+    margin-top: 8px;
+    font-size: 15px;
+}
+.principle h3{
+    font-size: 25px;
+    margin:20px 0;
+}
+.variety{
+    margin: 0 30px;
+}
+.convenience .image{
+    background-image: url(/images/boxover.webp);
+}
+.variety .image{
+    background-image: url(/images/variety.webp);
+}
+.deliciousness .image{
+    background-image: url(/images/salmon_katsu.webp) ;
+}
+
+
+/* section three */
+
+
+.sectionthree{
+    height:80vh;
+    width:100vw;
+    display: flex;
+}
+.leftbody{
+    background-color: aqua;
+    height: 80vh;
+    width:50vw;
+    background-image: url(/images/familycooking.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+.rightbody{
+    background-color: beige;
+    height: 80vh;
+    width:50vw;
+
+}
+.hiw{
+    height:60%;
+    width:90%;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 15px;
+}
+.hiw h4{
+    font-size: 25px;
+    color: firebrick;
+    margin-bottom: 10px;
+
+}
+.hiw p{
+    margin-bottom: 15px;
+}
+.hiw a{
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.hiw ol{
+    margin-bottom: 50px;
+}
+.hiw li{
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+/* section four */
+.sectionfour{
+    height:80vh;
+    width:100vw;
+    text-align: center;
+}
+
+.topper{
+    height: 25%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.topper h4{
+    font-size: 33px;
+}
+.topper p{
+    font-size: 18px;
+}
+ 
+.sectionfour .pics {
+    height: 55%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sectionfour .menu{
+    height:60%;
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+
+}
+  .pic1{
+    background-image: url(/images/vegan.webp);
+}
+
+.sectionfour .vegan{
+    background-image: url(/images/vegan.webp);
+}
+.sectionfour .weeklyclassic{
+    background-image: url(/images/weeklyclassic.webp);
+    margin: 0 20px;
+}
+.sectionfour .vegetarian{
+    background-image: url(/images/Vegetarian.webp);
+}
+
+.sectionfour a{
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 100px;
+
+}
+.menu p{
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.vegan p{
+    
+    background-color:#d8f4a4 ;
+    color:#aace6b ;
+}
+.weeklyclassic p{
+    background-color:#d6e1fd ;
+    color:#a6b5ea ;
+
+}
+.vegetarian p{
+    background-color:#c8f5da ;
+    color: #94d9b0;
+
+}
+/* section five */
+.section5{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f3f4f6;
+    
+}
+
+.section5 .header{
+    height:25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.section5 .instalogo{
+    height: 40px;
+    width: 40px;
+    background-image: url(/images/instagram.webp);
+    background-position: center;
+    background-size: cover;
+    margin-right:15px ;
+}
+
+.section5 h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.section5 .container{
+    height: 45%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+
+}
+.section5 .image{
+    height:70%;
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 20px;
+    background-color: burlywood;
+}
+.section5 .ladies{
+    background-image: url(/images/ladies.webp);
+}
+.section5 .lemon{
+    background-image: url(/images/lemon.webp);
+}
+.section5 .lady{
+    background-image: url(/images/lady.webp);
+}
+.section5 .cheese{
+    background-image: url(/images/cheese.webp);
+
+}
+.section5 .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    line-height: 44px;
+
+}
+.section5 p{
+    font-size: 28px;
+}
+.section5 .mealserved{
+    color: red;
+}
+.section5 .fa-solid{
+    color:#f6ad01;
+    margin-right: -5px;
+}
+.section5 .rating{
+    font-size: 19px;
+}
+.section5 .googlelogo{
+    height: 19px;
+    margin-top: 8px;
+    margin-bottom: -5px;
+}
+
+
+
+
+
+
+
+/* section six */
+.section6{
+    height: 85vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image:url(/images/subscribe.webp) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.section6 .header{
+    height:50%;
+    width: 70%;
+    border-radius: 20px;
+    background-color: white ;
+    margin-bottom: 30px;
+}
+
+.section6 h2{
+    margin: 30px 0;
+    font-size: 30px;
+}
+.section6 p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.section6 .pagedescription{
+    width: 60%;
+}
+.section6 .pagedescription p{
+    font-size: 15px;
+}
+.section6 label{
+    margin-left: -330px;
+}
+.section6 input{
+    height: 43px;
+    width: 30%;
+    border-right:none ;
+    border-radius:5px 0 0 5px ;
+
+
+}
+
+
+
+.section6 a{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 8px 10px 11px 10px ;
+    border-radius: 0 5px 5px 0;
+    text-decoration: none;
+    margin-left: -5px;
+    
+
+
+}
+
+
+
+/* section seven */
+.section7{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    
+}
+.section7 .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+.section7 h2{
+    color: red;
+
+}
+
+.section7 .upper{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.section7 .upperleft{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section7 .upperright{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+} 
+.section7 .toy{
+    height:70%;
+    width: 30%;
+    margin-right: 30px;
+    line-height: 30px;
+    text-align: left;
+
+}
+.section7 .about{
+    margin-left: 70px;
+}
+.section7 .our{
+    height:85%;
+    width: 45%;
+    margin-right: 40px;
+    text-align: right;
+
+}
+.section7 .contact{
+    height:85%;
+    width: 45%;
+    margin-right: 100px;
+    line-height: 30px;
+    text-align: right;
+}
+.section7 .our .image{
+    height: 90px;
+    width: 150px;
+    background-image: url(/images/sustain.webp);
+    background-position: center;
+    background-size: cover;
+    margin-left: 196px;
+    border-radius: 15px;
+}
+.section7 .lower{
+    height: 30%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.section7 .lower .at{
+    height: 70%;
+    width: 30%;
+    background-color: crimson;
+    margin-right: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section7 label{
+    margin:-200px;
+}
+.section7 h3{
+    color: black;
+}
+.section7 a{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+.section7 .fa-star{
+    color: #f6ad01 ;
+}
+.section7 .footer{
+    height: 15%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section7 .fa-heart{
+    color:red;
+}
+.section7 .fa-brands{
+    font-size: 25px;
+}
+.section7 input{
+    height: 30px;
+    width: 50%;
+    border-right:none ;
+    border-radius:5px 0 0 5px ;
+}
