@@ -544,7 +544,7 @@
 .section7 .lower .at{
     height: 70%;
     width: 30%;
-    background-color:greenyellow;
+    background-color:blue;
     margin-right: 20px;
     display: flex; 
     flex-direction: column;
